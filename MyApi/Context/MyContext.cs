@@ -16,5 +16,7 @@ namespace MyApi.Context
         public DbSet<Car> Car { get; set; }
         public DbSet<Boat> Boat { get; set; }
         public DbSet<Bus> Bus { get; set; }
+
+        public DbSet<Masalar> Masalarin { get; set; }
     }
 }
