@@ -17,6 +17,6 @@ namespace MyApi.Context
         public DbSet<Boat> Boat { get; set; }
         public DbSet<Bus> Bus { get; set; }
 
-        public DbSet<Masalar> Masalarin { get; set; }
+        
     }
 }
